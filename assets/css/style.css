@@ -148,7 +148,7 @@ html, body{
 	} */
 
 	.card-body{
-		padding: 30px !important;
+		padding: 10px 20px !important;
 		
 	}
 
@@ -539,4 +539,14 @@ html, body{
 	font-size: 50px;
 	margin-left: 15px;
     margin-right: 15px;
+}
+
+/*Render List of Movies Styles*/
+
+.evaluetion{
+	
+}
+
+.vejaMais{
+	margin: 10px 47.5px;
 }
