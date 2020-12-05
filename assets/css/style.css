@@ -1,0 +1,542 @@
+/*.navbar-collapse a:hover{
+	background-color: #002998;
+	color: #fff !important;
+	
+	opacity: 0.6;
+	transition: 0.1s;
+}
+
+.navbar-collapse a:hover{
+	border-radius: 10%;
+
+}
+
+#lista-menu li a:hover{
+
+}*/
+
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Playfair+Display|Raleway|Roboto&display=swap');
+
+#destaques h2,h3,h4,h5,h6,p,a,b{
+	color: #fff;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	/* background-color: black; */
+}
+
+.section-titles{
+	padding: 35px;
+}
+
+.division{
+	height: 65px;
+	background-color: #F1F1F1;
+}
+
+.bg-dark {
+    background-color: #242424!important;
+}
+
+.nav-description{
+	background-color: none;
+	color: #fff !important;
+}
+
+.nav-atores{
+	font-size: 14px !important;
+	background-color: none !important;
+	color: #fff !important;
+	
+}
+@media (min-width: 1200px) {
+
+	.nav-atores{
+		font-size: 12px !important;
+		background-color: none !important;
+		color: #fff !important;
+		border-left: 1px solid #fff !important;
+	}
+
+	.nav-atores:hover{
+		background-color: none !important;
+		color: #fff !important;
+	}
+
+
+	.nav-dadosfilmes{
+		padding-left: 0px !important;
+		padding-top: 0px !important;
+	}
+
+	.nav-elencofilmes{
+		padding-left: 0px !important;
+		
+	}
+
+	.nav-description:hover{
+		background-color: none;
+		color: #fff;
+	}
+
+	.nav-description{
+		background-color: none;
+		color: #fff;
+	}
+
+	.nav-header:hover{
+		border-radius: 10%;
+		width: 100% !important;
+	}
+
+	.nav-header{
+		line-height: 35px !important;
+		border-left: 1px solid;
+	}
+
+	#social-medias-navbar{
+		margin-left: 5px;
+	}
+
+	#navbarResponsive{
+		padding-top: 5px;
+	}
+
+	#navbar-menu{
+		padding-bottom: 15px;
+	}
+
+	.about-content{
+		
+		/*width: 872px;*/
+		width: 100%;
+		border-radius: 2.5%;
+		
+		
+		
+	}
+	/* #my_photo{
+		margin: 0px !important;
+		border-radius: 50%;
+		float: right;
+	} */
+
+	#container-responsive{
+		width: 100%; 
+		height: 675px !important;
+	}
+
+	.parallax{
+		padding-bottom: 0px !important;
+		padding-top: 0px !important;
+	}
+
+	/* .text-box{
+		padding-left: 50px;
+		padding-right: 50px;
+	} */
+
+	/* .education .card{
+		flex-direction: initial !important;
+	} */
+
+	/* .card-box{
+		width: 80% !important;
+	} */
+
+	.card-body{
+		padding: 30px !important;
+		
+	}
+
+	.card-item{
+		text-align: left !important;
+	}
+
+
+	
+}
+
+@media  (min-width: 769px) and (max-width: 1200px){
+	#btnSearch {
+		width: 115px !important;
+		margin-left: 20px;
+	}
+
+	.nav-ajuste{
+		padding-top: 10px;
+	}
+
+	.navbar .navbar-nav li .nav-link {
+		text-align: center;
+		font-size: 12px !important;
+	}
+}
+
+@media (max-width: 768px){
+	.parallax{
+		padding-top: 0px !important;
+		padding-bottom: 450px !important;
+	}
+
+	#navbarCarrousel1{
+		width: 100%;
+	}
+
+	#navbarCarrousel2{
+		width: 100%;
+	}
+
+	#navbarCarrousel3{
+		width: 100%;
+	}
+
+	#navbarCarrousel11{
+		width: 100%;
+	}
+
+	#navbarCarrousel22{
+		width: 100%;
+	}
+
+	#navbarCarrousel33{
+		width: 100%;
+	}
+
+	.emTitle{
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.carregarMais{
+		text-align: center;
+	}
+
+	.btncarregarMais{
+		float: none !important;
+	}
+
+	.card{
+		flex-direction: column !important;
+	}
+
+	.about-left {
+		text-align: left;
+		padding: 30px !important;
+	}
+
+	.responsive {
+		width: 100% !important;
+		max-width: 200px !important;
+		height: auto !important;
+	}
+
+	#my_photo{
+		margin: 30px 49px 30px 49PX !important;
+	}
+
+	.comments{
+		margin-bottom: 20px;
+	}
+
+	.news{
+		margin: 10px 49px 10px 49px !important;
+	}
+	
+	.copy{
+		text-align: center !important;
+	}
+
+	.logo-footer{
+		margin-top: 0px !important;
+		margin-left: 85px !important;
+	}
+}
+
+
+
+.navbar .navbar-nav li .nav-link{
+	text-align: center;
+	font-size: 16px;
+
+}
+
+.navbar .navbar-nav li .nav-link:hover{
+	color: #fff !important;
+	background-color: #002998;
+	height: 100%;
+
+	transition: 0.3s;
+}
+
+.navbar .navbar-nav li .nav-description:hover{
+	color: #fff !important;
+	background-color: inherit;
+	height: 100%;
+
+	transition: 0.3s;
+}
+
+.navbar .navbar-nav li .nav-atores:hover{
+	color: #fff !important;
+	background-color: inherit;
+	height: 100%;
+
+	transition: 0.3s;
+}
+
+/*-------------------------Social Media Buttons----------------------*/
+
+#btnCollapse{
+	float: right;
+	margin-top: 7px;
+}
+
+
+
+.fa {
+  padding: 11px;
+  font-size: 30px;
+  width: 40px !important;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 5px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+    opacity: 0.7;
+    background: #3B5998;
+  	color: white;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-linkedin:hover {
+	opacity: 0.7;
+	background: #007bb5;
+	color: white;
+}
+
+
+
+
+/*Parallax Effect*/
+
+.card{
+	background: none;
+}
+
+.parallax{
+	background-image: url("../img/fundopreto3.jpg");
+	/* background-color: #242424; */
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 205px;
+	padding-top: 100px;
+}
+
+.about-content{
+	/* background-color: #fff; */
+	/*width: 872px;*/
+	width: 80%;
+	min-height: 470px;
+	margin: auto;
+	border-radius: 0.5%;
+	padding-top: 5.5%;
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+	
+}  
+
+.about-left{
+	text-align: left;
+	/* padding: 30px; */
+	
+	
+}
+
+.font_2 {
+    font: normal normal normal 30px/1.4em Playfar Display Bold,sans-serif;
+	color: #182153;
+	font-weight: bolder;
+	line-height: normal;
+	letter-spacing: normal;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0; 
+}
+
+.profission{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
+	color: #182153;
+}
+
+.title-info{
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: 800;
+	color: #182153;
+	margin-bottom: 0px;
+}
+
+.body-info{
+	font-family: Avenir Light;
+	font-size: 16px;
+	color: #000000;
+}
+
+ .infos{
+	margin-top: 30px;
+} 
+
+.responsive {
+	width: 100%;
+	max-width: 350px;
+	height: auto;
+}
+
+#my_photo{
+		
+	/* float: right; */
+	margin: 30px 0px 30px 0px;
+	border-radius: 50%;
+}
+
+#container-responsive{
+	width: 100%; 
+	height: 740px;
+}
+
+/*---Section Description */
+
+#description{
+	background-color: #F1F1F1;
+}
+
+.text-box{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 75px;
+	/*font-family: Avenir Light;
+	font-size: 30px;*/
+	/* padding-left: 50px;
+	padding-right: 50px; */
+	font-size: 18px;
+}
+
+.text-box p{
+	margin-bottom: 2em;
+}
+
+#see-more{
+	border-radius: 20px;
+	/*padding: 20px;*/
+	background-color: #182153;
+	width: 200px;
+	margin: auto;
+	margin-top: 10px;
+	font-family: Montserrat;
+	font-weight: 500px;
+	font-size: 16px;
+	height: 40px;
+	
+}
+
+/*Education Section*/
+
+.education{
+	padding-top: 35px;
+}
+
+.education .card{
+	flex-direction: column;
+}
+
+.img-logo{
+	/* max-width: 144px;
+	max-height: 120px; */
+	
+	max-width: 200px;
+    max-height: 166.67px;
+}
+
+.card-img-title{
+	font-family: Avenir;
+	color: #182153;
+	font-size: 20px;
+    font-weight: 600;
+}
+
+
+.card-box{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 75px;
+	/*font-family: Avenir Light;
+	font-size: 30px;*/
+	/* padding-left: 50px;
+	padding-right: 50px; */
+	font-size: 18px;
+}
+
+.card-item{
+	text-align: center;
+}
+
+.card-body{
+	padding: 0px;
+    padding-top: 20px;
+}
+
+
+/*Em destaque*/
+
+.img-cartazes{
+	width: 100% !important;
+	height: auto !important;
+}
+
+/*Ultimas Avaliações*/
+
+#ultimasAvaliacoes{
+
+}
+
+#entrevistasMakingof{
+	background-color: #F1F1F1;
+}
+
+.badge-secondary {
+    
+    padding: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 10px;
+   
+}
+
+.fab{
+	font-size: 50px;
+	margin-left: 15px;
+    margin-right: 15px;
+}
