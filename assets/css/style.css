@@ -156,11 +156,12 @@ html, body{
 		text-align: left !important;
 	}
 
+	
 
 	
 }
 
-@media  (min-width: 769px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 1200px){
 	#btnSearch {
 		width: 115px !important;
 		margin-left: 20px;
@@ -173,6 +174,71 @@ html, body{
 	.navbar .navbar-nav li .nav-link {
 		text-align: center;
 		font-size: 12px !important;
+	}
+
+	.card-body{
+		padding: 15px !important;
+	}
+
+	.vejaMais{
+		margin: 10px 33.5px !important;
+	}
+
+	.description {
+		height: 145px !important;
+	}
+
+	.card-body {
+		padding: 0px;
+		padding-top: 20px;
+		height: 380px !important;
+	}
+
+	
+	.genre{
+		height: 60px !important;
+	}
+	
+}
+@media  (min-width: 769px) and (max-width: 992px){
+	#btnSearch {
+		width: 115px !important;
+		margin-left: 20px;
+	}
+
+	.titulo{
+		color:darkslategrey; height: 100px !important;
+	}
+
+	.genre{
+		height: 85px !important;
+	}
+
+	.nav-ajuste{
+		padding-top: 10px;
+	}
+
+	.navbar .navbar-nav li .nav-link {
+		text-align: center;
+		font-size: 12px !important;
+	}
+
+	.card-body{
+		padding: 15px !important;
+	}
+
+	.vejaMais{
+		margin: 10px 0px !important;
+	}
+
+	.description {
+		height: 190px !important;
+	}
+
+	.card-body {
+		padding: 0px;
+		padding-top: 20px;
+		height: 500px !important;
 	}
 }
 
@@ -253,6 +319,19 @@ html, body{
 	.logo-footer{
 		margin-top: 0px !important;
 		margin-left: 85px !important;
+	}
+
+	.card-body {
+		padding: 15px !important;
+		padding-top: 20px;
+	}
+
+	.vejaMais{
+		margin: 10px auto !important;
+	}
+
+	.card{
+		margin-top: 10px !important;
 	}
 }
 
@@ -427,8 +506,12 @@ html, body{
 
 /*---Section Description */
 
-#description{
-	background-color: #F1F1F1;
+.description{
+	height: 96px;
+}
+
+.rowRender{
+	margin-top: 60px;
 }
 
 .text-box{
@@ -505,7 +588,8 @@ html, body{
 
 .card-body{
 	padding: 0px;
-    padding-top: 20px;
+	padding-top: 20px;
+	height: 295px;
 }
 
 
@@ -549,4 +633,12 @@ html, body{
 
 .vejaMais{
 	margin: 10px 47.5px;
+}
+
+.genre{
+	color:rgb(70, 87, 100);font-family: monospace;height: 30px;
+}
+
+.titulo{
+	color:darkslategrey; height: 50px;
 }
